@@ -1,0 +1,30 @@
+{
+  "name": "ethers-contracts-vechain",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^18.2.18",
+    "@types/react-dom": "^18.2.7",
+    "assert": "^2.0.0",
+    "buffer": "^5.5.0||^6.0.0",
+    "crypto-browserify": "^3.12.0",
+    "events": "^3.1.0",
+    "parcel": "^2.9.3",
+    "process": "^0.11.10",
+    "stream-browserify": "^3.0.0"
+  },
+  "dependencies": {
+    "@vechain/connex": "^2.0.14",
+    "@vechain/web3-providers-connex": "^1.0.0",
+    "ethers": "5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "usehooks-ts": "^2.9.1"
+  },
+  "scripts": {
+    "build": "parcel build src/index.html",
+    "dev": "parcel serve src/index.html"
+  },
+  "packageManager": "yarn@3.6.1"
+}
