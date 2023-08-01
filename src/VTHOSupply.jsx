@@ -6,8 +6,8 @@ import { useInterval } from 'usehooks-ts'
 
 // connect to Vechain
 const connex = new Connex({
-  node: "https://node-testnet.vechain.energy",
-  network: "test"
+  node: "https://node-mainnet.vechain.energy",
+  network: "main"
 });
 
 
