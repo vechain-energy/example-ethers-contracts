@@ -39,7 +39,7 @@ jobs:
         run: yarn
   
       - name: Build distribution
-        run: yarn build
+        run: yarn build --public-url "$GH_PAGES_URL"
 
       - name: Upload artifact
         if: github.ref == 'refs/heads/main'
