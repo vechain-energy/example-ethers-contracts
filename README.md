@@ -40,3 +40,8 @@ yarn dev --open
 ```
 
 - `src/VTHOSupply.jsx` contains the example snippet
+
+# Links:
+
+- [ethers@5](https://docs.ethers.org/v5/)
+- [@vechain/web3-providers-connex](https://github.com/vechain/web3-providers-connex#readme)
